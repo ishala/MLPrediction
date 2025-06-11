@@ -76,7 +76,7 @@ def calculateWinPercentage(team1, team2):
     team2Base = (team2Strength / totalStrength) * 100
     
     # Terapkan penalti dari lane yang tidak cocok (anggap 5% per mismatch)
-    penalty_per_unmatched = 25
+    penalty_per_unmatched = 5
     team1Penalty = unmatchedLane1 * penalty_per_unmatched
     team2Penalty = unmatchedLane2 * penalty_per_unmatched
 
